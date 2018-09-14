@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Libre+Barcode+128+Text');
+
+.head {
+    font-family: 'Libre Barcode 128 Text', cursive;
+}
+.description {
+    font-family: 'Arapey', serif;
+
+}
