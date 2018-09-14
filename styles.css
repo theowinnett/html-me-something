@@ -1,9 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Arapey|Libre+Barcode+128+Text');
 
-.head {
+#title {
     font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    text-shadow: 0px 1px 2px rgba(255,54,164,0.92);
+    color: rgba(255, 255, 255, 0.90);
 }
-.description {
+.Head {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.90);
+    text-shadow: 0px 2px 20px rgba(255,54,164,0.92);
+}
+.description, footer {
     font-family: 'Arapey', serif;
+    color: rgb(232, 252, 255);
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    text-shadow: 0px 1px 2px rgba(247, 0, 255, 0.92);
+}
+body {
+    background: #94E6FF;
+    background: -moz-linear-gradient(top, #94E6FF 0%, #FFB2F7 100%, #FFA8E5 100%);
+    background: -webkit-linear-gradient(top, #94E6FF 0%, #FFB2F7 100%, #FFA8E5 100%);
+    background: linear-gradient(to bottom, #94E6FF 0%, #FFB2F7 100%, #FFA8E5 100%);
+}
 
+.grid-container {
+    display: inline-grid;
+    align-items: auto;
+    grid-template-columns: 420px 420px 420px;
+    padding: 20px 20px 20px;
+    margin: auto;
+}
+
+img {
+    align-self: center;
+    max-width: 100%;
+    margin: auto;
 }
